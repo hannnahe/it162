@@ -40,6 +40,15 @@
           border-left: 1px solid #ccc;
           border-right: 1px solid #ccc;
         }
+
+/* keeps form from bunching up to left */
+@media all and (min-width:501px){
+    div.wrapper form{
+        margin-left:33px;
+
+    }
+}
+
         
         /* end reCAPTCHA styles */
 
